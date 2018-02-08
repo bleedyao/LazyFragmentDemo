@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 list);
 
         mViewPager.setAdapter(adapter);
-        mViewPager.setOffscreenPageLimit(list.size() - 1);
+//        mViewPager.setOffscreenPageLimit(list.size() - 1);
     }
 
     class MyFragmentPageAdapter extends FragmentPagerAdapter {

@@ -53,4 +53,10 @@ public abstract class LazyFragment extends Fragment {
             lazyLoad();
         }
     }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        mIsInited = false;
+    }
 }
